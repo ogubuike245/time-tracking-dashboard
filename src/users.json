@@ -1,0 +1,164 @@
+[
+  {
+    "name": "John Doe",
+    "avatar": "./images/john.png",
+    "data": [
+      {
+        "title": "Work",
+        "timeFrames": {
+          "daily": { "current": 1, "previous": 3 },
+          "weekly": { "current": 27, "previous": 32 },
+          "monthly": { "current": 170, "previous": 120 }
+        }
+      },
+      {
+        "title": "Play",
+        "timeFrames": {
+          "daily": { "current": 2, "previous": 1 },
+          "weekly": { "current": 4, "previous": 7 },
+          "monthly": { "current": 7, "previous": 45 }
+        }
+      },
+      {
+        "title": "Study",
+        "timeFrames": {
+          "daily": { "current": 10, "previous": 12 },
+          "weekly": { "current": 20, "previous": 40 },
+          "monthly": { "current": 15, "previous": 17 }
+        }
+      },
+      {
+        "title": "Exercise",
+        "timeFrames": {
+          "daily": { "current": 1, "previous": 2 },
+          "weekly": { "current": 2, "previous": 3 },
+          "monthly": { "current": 10, "previous": 4 }
+        }
+      },
+      {
+        "title": "Social",
+        "timeFrames": {
+          "daily": { "current": 1, "previous": 2 },
+          "weekly": { "current": 7, "previous": 1 },
+          "monthly": { "current": 17, "previous": 20 }
+        }
+      },
+      {
+        "title": "Self-Care",
+        "timeFrames": {
+          "daily": { "current": 0, "previous": 1 },
+          "weekly": { "current": 2, "previous": 3 },
+          "monthly": { "current": 1, "previous": 10 }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Jane Smith",
+    "avatar": "./images/jane.jpg",
+    "data": [
+      {
+        "title": "Work",
+        "timeFrames": {
+          "daily": { "current": 7, "previous": 3 },
+          "weekly": { "current": 30, "previous": 37 },
+          "monthly": { "current": 100, "previous": 110 }
+        }
+      },
+      {
+        "title": "Play",
+        "timeFrames": {
+          "daily": { "current": 3, "previous": 3 },
+          "weekly": { "current": 2, "previous": 4 },
+          "monthly": { "current": 37, "previous": 60 }
+        }
+      },
+      {
+        "title": "Study",
+        "timeFrames": {
+          "daily": { "current": 1, "previous": 0 },
+          "weekly": { "current": 2, "previous": 3 },
+          "monthly": { "current": 12, "previous": 10 }
+        }
+      },
+      {
+        "title": "Exercise",
+        "timeFrames": {
+          "daily": { "current": 1, "previous": 1.7 },
+          "weekly": { "current": 3, "previous": 2 },
+          "monthly": { "current": 4, "previous": 10 }
+        }
+      },
+      {
+        "title": "Social",
+        "timeFrames": {
+          "daily": { "current": 1, "previous": 2 },
+          "weekly": { "current": 7, "previous": 1 },
+          "monthly": { "current": 17, "previous": 20 }
+        }
+      },
+      {
+        "title": "Self-Care",
+        "timeFrames": {
+          "daily": { "current": 1, "previous": 0 },
+          "weekly": { "current": 3, "previous": 2 },
+          "monthly": { "current": 4, "previous": 1 }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Bob Johnson",
+    "avatar": "./images/bob.jpg",
+    "data": [
+      {
+        "title": "Work",
+        "timeFrames": {
+          "daily": { "current": 3, "previous": 7 },
+          "weekly": { "current": 20, "previous": 37 },
+          "monthly": { "current": 130, "previous": 120 }
+        }
+      },
+      {
+        "title": "Play",
+        "timeFrames": {
+          "daily": { "current": 1, "previous": 2 },
+          "weekly": { "current": 1, "previous": 2 },
+          "monthly": { "current": 17, "previous": 20 }
+        }
+      },
+      {
+        "title": "Study",
+        "timeFrames": {
+          "daily": { "current": 0, "previous": 1 },
+          "weekly": { "current": 3, "previous": 2 },
+          "monthly": { "current": 4, "previous": 10 }
+        }
+      },
+      {
+        "title": "Exercise",
+        "timeFrames": {
+          "daily": { "current": 3, "previous": 7 },
+          "weekly": { "current": 2, "previous": 3 },
+          "monthly": { "current": 12, "previous": 4 }
+        }
+      },
+      {
+        "title": "Social",
+        "timeFrames": {
+          "daily": { "current": 1, "previous": 2 },
+          "weekly": { "current": 7, "previous": 1 },
+          "monthly": { "current": 17, "previous": 20 }
+        }
+      },
+      {
+        "title": "Self-Care",
+        "timeFrames": {
+          "daily": { "current": 0, "previous": 1 },
+          "weekly": { "current": 2, "previous": 3 },
+          "monthly": { "current": 1, "previous": 10 }
+        }
+      }
+    ]
+  }
+]

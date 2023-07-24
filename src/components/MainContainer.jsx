@@ -1,4 +1,4 @@
-import React, { createContext, useState } from "react";
+import { useState } from "react";
 
 // LOCAL IMPORTS
 import UserProfile from "./UserProfile.jsx";
@@ -10,16 +10,24 @@ import Users from "./Users.jsx";
 import { UserProvider } from "../context/index.jsx";
 const MainContainer = () => {
   const [selectedUser, setSelectedUser] = useState(users[0]);
+  const [timeFrame, setTimeFrame] = useState("weekly");
 
   return (
-    <section className="container">
-      <UserProvider value={selectedUser}>
-        <Users users={users} setSelectedUser={setSelectedUser} />
+    <UserProvider
+      value={{
+        selectedUser,
+        timeFrame,
+        setTimeFrame,
+        setSelectedUser,
+      }}
+    >
+      <Users users={users} />
 
+      <section className="container">
         <UserProfile />
         <Activities />
-      </UserProvider>
-    </section>
+      </section>
+    </UserProvider>
   );
 };
 
