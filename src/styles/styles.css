@@ -234,7 +234,6 @@ img {
   .container {
     grid-template-columns: 250px 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 1rem;
     padding: 5rem;
   }
 
@@ -245,7 +244,6 @@ img {
     height: 480px;
     display: grid;
     grid-template-rows: 1fr 150px;
-    background-color: var(--DarkBlue);
     border-radius: 1rem;
   }
 
@@ -253,7 +251,6 @@ img {
     display: grid;
     grid-template-rows: 100px auto;
     gap: 1rem;
-    background-color: var(--Blue);
     border-radius: 1rem;
     padding: 2rem 1rem;
   }
@@ -261,11 +258,9 @@ img {
   .user-name h2 {
     font-weight: 300;
     font-size: 40px;
-    color: var(--white);
   }
 
   .frames {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
@@ -299,10 +294,6 @@ img {
     grid-template-columns: 1fr 1fr;
     padding-inline-start: 2rem;
     cursor: pointer;
-  }
-
-  .activity ul:hover {
-    background-color: var(--DesaturatedBlue2);
   }
 
   .activity ul li.title {
